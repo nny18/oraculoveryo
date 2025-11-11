@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   height: 100%;
+  background-color: #D098E3;
 }
 
 *,
@@ -22,7 +23,7 @@ body {
 
 
 h2 {
-  font-size: 1.1em;
+  font-size: 1.7em;
 }
 
 #contenedor {
@@ -34,21 +35,32 @@ h2 {
 #tituloPagina {
   margin-top: 1em;
   margin-bottom: 0;
-  font-family: sans-serif;
+  font-family: 'Bigelow Rules';font-size: 22px;
+  font-size: 3.5em;
+  color: rgb(90, 36, 34)
 }
 
 #foto {
  height: 300px;
-  border: #ff7300 solid 5px;
-  margin-top: 15px;
+  border:#5c420f double 9px;
+  margin-top: 2px;
+  border-radius: 16px;
+  box-shadow: 6px 4px 5px #795681;
 }
 
 .tituloPrediccion {
-  font-size: 2em;
+  font-size: 1.6em;
+  font-family: 'Cinzel Decorative';font-size: 22px;
+  text-shadow: 0px 0px 6.1px #3d0c0c;
+  
 }
+
+
 
 .prediccion {
   font-size: 1.5em;
+  font-family: 'Gloria Hallelujah';font-size: 22px;
+
 }
 
 .prediccion::first-letter {
@@ -57,8 +69,41 @@ h2 {
 
 #boton {
   font-size: 0.9em;
-  background-color: #3d00fdb5;
-  color: white;
+  background-color: #a16e21b2;
+  color:beige;
   margin-bottom: 2em;
+  border-style:inset;
   cursor: pointer;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+#boton:hover {
+  background-color: #49180f;
+  color: white;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+#flecha {
+  width: 0; 
+  height: 0; 
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent; 
+  border-right:35px solid #795681; 
+  position: absolute;
+  top: 38%;
+  left: 26%;
+}
+
+#flechados {
+  width: 0; 
+  height: 0; 
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent; 
+  border-right:35px solid #795681; 
+  transform: rotate(180deg);
+  position: absolute;
+  top: 38%;
+  right: 26%;
 }
