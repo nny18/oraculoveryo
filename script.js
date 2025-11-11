@@ -1,11 +1,12 @@
 // Crear las listas de imágenes, títulos y frases
 const imagenes = [
-  "../oraculoveryo/assets/img/Yeimy1.jpg",
-  "../oraculoveryo/assets/img/charly1.jpg",
-  "../oraculoveryo/assets/img/irma1.jpg",
-  "../oraculoveryo/assets/img/yeimy2.webp",
-  "../oraculoveryo/assets/img/charlyyeimy1.jpg",
-  "../oraculoveryo/assets/img/axel1.jpeg",
+  "../oraculoveryo/assets/Yeimy1.jpg",
+  "../oraculoveryo/assets/charly1.jpg",
+  "../oraculoveryo/assets/irma1.jpg",
+  "../oraculoveryo/assets/yeimy2.webp",
+  "../oraculoveryo/assets/charlyyeimy1.jpg",
+  "../oraculoveryo/assets/axel1.jpeg",
+  "../oraculoveryo/assets/erick1.jpeg",
 ];
 
 const titulos = [
@@ -15,6 +16,7 @@ const titulos = [
   "Yeimy soñadora",
   "Yeimy y charly",
   "Axel",
+  "erick",
 ];
 
 const frases = [
@@ -24,7 +26,13 @@ const frases = [
   "♩♩ De donde vengo, de donde soy ya no hay espacio para el temor, sales con toda y tu bendición, somos más tesos ante el dolor ♩♩",
   "♪♬ Sabes, aún recuerdo esa vez que te vi, yo no entiendo cuánto tiempo yo viví sin ti, eres ese reflejo que quiero mirar, tienes la vida que me hace falta para continuar ♬♪",
   "𝄡𝄡 Una condena que alimenta la furia, el alma en pena por recuerdos que la agobian, memorias imborrables de lo que pudimos ser, sueños de juventud que se van para no volver ¿Y dónde están los que se rieron de mí? 𝄡𝄡",
+  "No quiero quedarme solo nunca más, no quiero perder a quienes amo más, no voy a dejarlos solos, yo voy a arriesgarlo todo, no importa lo malo, la familia es más",
 ];
+
+const musica = [
+  "../oraculoveryo/music/depredador.mp3",
+  "../oraculoveryo/music/",
+]
 
 // Trae los elementos del HTML que tienen ese id
 const imagen = document.getElementById("foto");
