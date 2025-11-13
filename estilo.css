@@ -3,6 +3,8 @@ html {
   height: 100%;
   background-color: #D098E3;
 
+
+
 }
 
 *,
@@ -73,10 +75,10 @@ h2 {
 }
 
 #boton {
-  font-size: 0.9em;
+  font-size: 1.3em;
   background-color: #a16e21b2;
   color:beige;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   border-style:inset;
   cursor: pointer;
   transition-duration: 0.4s;
@@ -115,4 +117,22 @@ h2 {
   display: flex;
   align-items: center;
 
+}
+
+#rayo{
+  height: 170px;
+  width:5px;
+  background-color: #795681;
+  position: absolute;
+  bottom:46%;
+  left: 8%;
+}
+
+#rayod {
+  height: 170px;
+  width:5px;
+  background-color: #795681;
+  position: absolute;
+  bottom:46%;
+  right: 8%;
 }
